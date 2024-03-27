@@ -1,0 +1,42 @@
+/* En css nos vamos a manejar con clases. Las clases las identificamos con un "." */
+
+.Encabezado {
+    background-color: rgb(75, 32, 3);
+    color: aliceblue;
+} 
+
+.Alinear{
+    display: flex;
+    gap: 30px;
+}
+
+.Foto{
+    width: 54.5%;
+}
+
+.Linea{
+    border-width: 1px;
+    max-width: 90px;
+}
+
+.Titulo-emp{
+    font-weight: bold;
+}
+
+.Bordes{
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.Borde-encabezado{
+    border-bottom-left-radius: solid 2px black;
+}
+
+.caja-izq{
+    width: 30%;
+    background-color: rgb(102, 33, 33);
+}
+
+.caja-der{
+    width: 65%;
+}
