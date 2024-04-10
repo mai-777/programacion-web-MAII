@@ -1,0 +1,19 @@
+display: flex -> es para alinear elementos(cajas) dentro de una misma linea horizontal. 
+
+
+Si queremos que estos elementos esten vertical tenemos que aplicar algunas propiedades mas.. 
+display: flex;
+flex-direction: column; 
+align-items: center -> esto centra los elementos dentro de este eje vertical
+
+----------------------------------------------------------------------------------------------
+
+grid divide la hoja en columnas y filas. 
+Para las columnas tenemos: 
+
+display: grid; 
+grid-template-columns: 100px 100px 100px 
+
+
+Para las filas tenemos: 
+grid-template-rows: 100px 100px 100px 

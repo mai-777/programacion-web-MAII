@@ -1,0 +1,37 @@
+.tamaño{
+    width: 80%;
+    aspect-ratio: 1/2;
+    object-fit: cover;
+}
+.alineamiento{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    /*grid-template-rows: 250px;*/
+    gap: 20px;
+}
+
+.caja{
+    background-color: rgb(39, 81, 116);
+}
+
+.alineamiento-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alineamiento-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: beige;
+}
+
+.color-letra{
+    color: hwb(180 96% 3%);
+}
+
+.color-caja{
+    background-color: hwb(209 23% 31%);
+    border-radius: 50px;
+}
