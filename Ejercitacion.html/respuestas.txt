@@ -4,4 +4,4 @@
 4) grid-template-columns: ;
    grid-template-rows: ;
 5) en el grind se pueden hacer filas y grillas. en el flex solo se puede alinear en una sola fila.
-6) en el contenedor con un class.
+6) con un class.

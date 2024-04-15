@@ -1,0 +1,48 @@
+.tamaño{
+    width: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.alineamiento{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    /*grid-template-rows: 250px;*/
+    gap: 60px;
+}
+
+.caja{
+    background-color: rgb(255, 255, 255);
+}
+
+.alineamiento-numero{
+    display: grid;
+    grid-column-start: column;
+    align-items: baseline;
+}
+
+.alineamiento-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: beige;
+}
+
+.color-letra{
+    color: hwb(180 96% 3%);
+}
+
+.color-cajaSnorlax{
+    background-color: hwb(237 22% 43%);
+    border-radius: 10px;
+}
+
+.color-cajaMeowth{
+    background-color: hwb(54 24% 30%);
+    border-radius: 10px;
+}
+
+.color-cajaDitto{
+    background-color: hwb(268 26% 39%);
+    border-radius: 10px;
+}
