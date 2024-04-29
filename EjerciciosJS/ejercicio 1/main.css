@@ -1,0 +1,9 @@
+.Alinear {
+  text-align: center;
+}
+
+.caja-centro {
+  background-color: hwb(209 23% 31%);
+  border-radius: 50px;
+  width: 250px;
+}
