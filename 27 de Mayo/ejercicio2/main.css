@@ -1,0 +1,28 @@
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+
+.tarjeta {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    width: 300px; 
+    text-align: center;
+}
+
+.foto {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.boton {
+    background-color: #6b1616;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

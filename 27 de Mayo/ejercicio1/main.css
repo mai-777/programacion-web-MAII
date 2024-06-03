@@ -1,0 +1,29 @@
+.encabezado {
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 66, 116);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lista {
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.foto {
+    width: auto;
+    border-radius: 25px;
+}
+
+.alinear{
+    display: flex;
+    gap: 30px;
+}
+
+.caja-izq{
+    width: 14%;
+}
+
+.caja-der{
+    width: 65%;
+    background-color: rgb(102, 112, 209);
+}

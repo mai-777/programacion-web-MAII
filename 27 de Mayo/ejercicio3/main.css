@@ -1,0 +1,23 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.tarjeta {
+    border-radius: 10px;
+    background-color: rgb(168, 168, 168);
+    padding: 10px;
+    margin: 10px;
+    width: 180px; 
+    text-align: initial;
+}
+
+.boton {
+    background-color: #161f6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

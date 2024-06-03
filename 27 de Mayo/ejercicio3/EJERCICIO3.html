@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Pagina de Contacto</title>
+</head>
+<body>
+
+    <h1>Formulario de Contacto</h1>
+
+    <div class="contenedor">
+
+        <form id="formularioContacto"></form>
+
+            <div class="tarjeta">
+                <label for="nombre">Nombre:</label>
+                <textarea id="nombre" name="nombre"></textarea>
+            </div>
+
+            <div class="tarjeta">
+                <label for="correo">Correo Electrónico:</label>
+                <textarea id="correo" name="correo"></textarea>
+            </div>
+
+            <div class="tarjeta">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+
+            <div>
+                <button class="boton" type="button" onclick="enviarFormulario()">Enviar</button>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>
