@@ -1,9 +1,9 @@
-import { Perfil } from "./components/miPrimerComponente/Perfil";
+import { Estado } from "./components/primerComponente/Estado";
 
 function App() {
   return (
     <>
-      <Perfil />
+      <Estado />
     </>
   );
 }
