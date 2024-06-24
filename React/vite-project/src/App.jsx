@@ -1,9 +1,9 @@
-import { Estado } from "./components/primerComponente/Estado";
+import Api from "./components/RickMortyApi/Api";
 
 function App() {
   return (
     <>
-      <Estado />
+      <Api />
     </>
   );
 }
