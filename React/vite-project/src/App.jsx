@@ -1,9 +1,9 @@
-import Api from "./components/RickMortyApi/Api";
+import ConversorMonedas from "./components/ConversorMonedas/Conversor";
 
 function App() {
   return (
     <>
-      <Api />
+      <ConversorMonedas />
     </>
   );
 }
