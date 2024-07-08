@@ -1,9 +1,9 @@
-import ConversorMonedas from "./components/ConversorMonedas/Conversor";
+import ApiV2 from "./components/RickMortyApiV2/pages/Api2";
 
 function App() {
   return (
     <>
-      <ConversorMonedas />
+      <ApiV2 />
     </>
   );
 }
