@@ -1,39 +1,163 @@
 :root {
-  --yellow: #f5c32c;
-  --orange: #fca61f;
-  --black: #242d49;
-  --gray: #788097;
-  --blueCard: #ddf8fe;
-  --purple: rgb(238 210 255);
-  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
-  --orangeCard: rgba(252, 166, 31, 0.45);
-  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --background-color: #:root {
+    --background-color: #4c5f7a;
+    --btn-color: #3d2e4f;
+    --btn-text-color: #fff;
+    --project-card-bg: #ffffff00;
+    --text-color: #222;
+    --form-text-color: #555;
+    --footer-text-color: #888;
+  }
+
+  body {
+    background-color: #4c5f7a;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+
+  h2,
+  h3,
+  p {
+    font-family: "Roboto Mono", monospace;
+  }
+
+  h1,
+  h2 {
+    text-transform: uppercase;
+  }
+
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .sectionTitle {
+    margin-bottom: 30px;
+  }
+
+  .hover {
+    cursor: pointer;
+  }
+
+  --btn-color: #0987f2;
+  --btn-text-color: #fff;
+  --project-card-bg: #ffffff00;
+  --text-color: #222;
+  --form-text-color: #555;
+  --footer-text-color: #888;
 }
 
-.App {
-  padding: 0.5rem 3.5rem;
-  overflow: hidden;
-  color: var(--black);
+body {
+  background-color: #4c5f7a;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 60px;
 }
 
-.button {
-  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
-  box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
-  border-radius: 34px;
-  border: none;
-  color: white;
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #a8a9b8;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3,
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 32px;
+}
+
+p {
   font-size: 16px;
-  padding: 11px 26px 11px 26px;
+  font-weight: 300;
 }
 
-.button:hover {
-  background: white;
-  cursor: pointer;
-  border: 1px solid var(--orange);
-  color: var(--orange);
+.sectionTitle {
+  margin-bottom: 30px;
 }
-@media screen and (max-width: 480px) {
-  .App {
-    padding: 0.5rem 1rem;
+
+.hover {
+  cursor: pointer;
+}
+
+@media (width >= 800px) {
+  #root {
+    gap: 100px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2,
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  .sectionTitle {
+    margin-bottom: 60px;
+  }
+
+  @media (width >= 1400px) {
+    #root {
+      gap: 200px;
+    }
+    h1 {
+      font-size: 48px;
+    }
+
+    .sectionTitle {
+      margin-bottom: 75px;
+    }
   }
 }
